@@ -23,3 +23,10 @@ slider.oninput = function() {
   output.innerHTML = this.value;
 }
 
+//libs
+var swiper = new Swiper('.swiper-container', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
