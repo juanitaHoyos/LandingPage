@@ -644,6 +644,47 @@ body {
   cursor: pointer;
 }
 
+.interaccion__cont__botones__destinosgal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid gray;
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.interaccion__cont__botones__destinosgal__col {
+  width: 250px;
+  -ms-flex-preferred-size: 250px;
+      flex-basis: 250px;
+  margin: 0 10px;
+}
+
+.interaccion__cont__botones__destinosgal__col--prin {
+  width: 300px;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+}
+
+.interaccion__cont__botones .gato__imagen {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
+.interaccion__cont__botones .gato__info {
+  background: gray;
+  padding: 10px;
+}
+
 .interaccion__cont__botones__destinos {
   width: 100%;
   height: 300px;

@@ -696,6 +696,44 @@ html {}
         }
       }
 
+ 
+      &__destinosgal{
+        display: flex;
+        border: 1px solid gray;
+        height: 500px;
+        justify-content: center;
+        align-items: flex-end;
+        align-content: center;
+    
+        &__col{
+            width: 250px;
+            flex-basis: 250px;
+            margin: 0 10px;
+    
+            &--prin{
+                width: 300px;
+                flex-basis: 300px;
+            }
+        }
+    }
+    
+    .gato{
+    
+        &__imagen{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 150px;
+        }
+    
+        &__info{
+            background: gray;
+            padding: 10px;
+        }
+    
+    }
+    
+
       &__destinos{
 
         width: 100%;
@@ -818,3 +856,4 @@ html {}
   }
 
 }
+
