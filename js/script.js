@@ -24,7 +24,7 @@ slider.oninput = function() {
 }
 
 //libs
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper('.swiperDestino', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
